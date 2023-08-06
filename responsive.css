@@ -1,0 +1,473 @@
+@media only screen and (max-width:1024px) {
+   /* responsive-header 1024*/
+   .container {
+     margin: 0;
+   }
+   .button {
+      font-size: 0.8em;
+   }
+   .title {
+      font-size: 2.8em;
+   }
+   header {
+     height: 100vh;
+   }
+   header {
+      .nav-header a {
+         font-size: 0.8em;
+       }
+       .main-text-slider-header {
+         line-height: 50px;
+         font-size: 2.8em;
+      }
+      .main-text-blue-slider-header {
+         line-height: 90px;
+         font-size: 3.2em;
+      }
+      .img-slider-header img {
+         max-width: 70%;
+       }
+       .text-slider-header{
+         font-size: 0.8em;
+         line-height: 1.7em;
+       }
+   }
+   main {
+      /* section-intro */
+         .section-intro {
+            margin-top: -17%;
+            height: 800px;         
+         }
+         .intro-img{
+            grid-template-rows: 300px;
+         }
+         .border-item1-intro-img {
+            height: 270px;
+         }
+         .title-intro-text h4{
+            font-size: 1.1em;
+            line-height: 20px;
+         }
+         .title-intro-text p{
+            font-size: 0.6em;
+            line-height: 20px;
+            padding: 5px 0;
+         }
+         .item-intro-statis span{
+            font-size: 22px;
+            line-height: 30px;
+            padding: 5px 5px 5px 0;
+         }
+         .item-intro-statis p{
+            font-size:0.6em;
+            line-height: 15px;
+            padding: 5px 5px 5px 0;
+         }
+         .intro-statis {
+            margin-bottom: 10px;
+         }
+         .button-intro-statis .button {
+            font-size: 0.6em;
+         }
+        /* section-reason  */
+        .box-reason {
+            margin: 0 -5.75%;
+         }
+        .item-box-reason {
+            height: 155px;
+         }
+         .item-box-reason svg{
+            font-size: 1.8em;
+            margin-top: 10%;
+         }
+         /* section-course */
+         .section-course {
+            margin-top: 35%;
+         }
+         /* css-section-teacher */
+         .section-teacher {
+            height: 1700px;
+         }
+         .section-teacher2 {
+            top: 15%;
+            height: 1200px;
+         }
+         .item-img-section-teacher {
+            height: 285px;
+         }
+         /* css section-student */
+         .assess-item2-box-section-student {
+            top: 20%;
+            left: 10%;
+         }
+         /* css-section-center */
+         .opacity-item2-box-section-center {
+            margin-top: -25%;
+         }
+         /* css section question */
+         .item-blue-box-section-question {
+            padding: 1em;
+            height: 10em;
+         }
+         .item-text-blue-box-section-question {
+            height: 3em;
+         }
+         .text-item-blue-box-section-question {
+            width: 94%;
+         }
+         .item-text-box-section-question {
+            height: 4.8em;
+            padding: 1em;
+         }
+         .item-text-box-section-question img {
+            padding: 0.5em;
+         }
+         .item-text-box-section-question h4 {
+            font-size: 1em;
+            width: 83%;
+         }
+   
+   }
+}
+@media screen and (max-width: 768px) {
+   /* responsive-header 768*/
+   .container {
+      max-width: 786px;
+   }
+   .button {
+      font-size: 0.7em;
+   }
+   .title {
+      font-size: 2.5em;
+   }
+   header {
+      height: 80vh;
+   } 
+   header {
+      .header > * {
+         margin-right: 10px;
+      }
+      .bar-header {
+         display: block;
+         cursor: pointer;
+       }
+       .nav-header {
+         display: none;
+       }
+       .main-text-slider-header {
+         line-height: 40px;
+         font-size: 2.5em;
+      }
+      .main-text-blue-slider-header {
+         line-height: 80px;
+         font-size: 3em;
+      }
+      .img-slider-header img {
+         max-width: 50%;
+       }
+       .text-slider-header{
+         font-size: 0.6em;
+         line-height: 1.5em;
+       }
+   }
+   main {
+      /* section-intro */
+         .section-intro {
+            margin-top: -25%;
+            height: auto;
+         }
+         .intro-title {
+            padding-top:50px ;
+         }
+         .intro2 {
+            position: relative;
+            top: 15%;
+            z-index: 1;
+         }
+         .intro-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            justify-content: center;
+            margin-top: 50px;
+         }
+         .title-section-intro p {
+            font-size: 0.8em;
+            margin-top: 0.8em;
+         }
+         .intro-img{
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            justify-content: center;
+            width: 90%;
+         }
+         .intro-img img{
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            justify-content: center;
+            max-width: 100%;
+         }
+         .box-item-intro-img {
+            margin-right: 0;
+            margin-bottom: 10px;
+         }
+         .border-item1-intro-img {
+            height: 510px;
+         }
+         .intro-text {
+            width: 55%;
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows:auto;      
+         }
+         .title-intro-text h4{
+            width: 100%;
+            font-size: 1.4em;
+            line-height: 30px;
+         }
+         .title-intro-text p{
+            width: 100%;
+            font-size: 0.8em;
+            line-height: 20px;
+         }
+         .item-intro-statis {
+            width: 100%;
+         }
+         .item-intro-statis span{
+            width: 30%;
+            font-size: 28px;
+            line-height: 45px;
+         }
+         .item-intro-statis p{
+            width: 80%;
+            font-size:0.8em;
+            line-height: 20px;
+         }
+         .button-intro-statis .button {
+            width: 9.5em;
+            height:2.7em;
+            line-height: 1.5em;
+            font-size: 1em;
+         }
+        /* section-reason  */
+        .box-reason {
+            margin: 0 -5.8%;
+         }
+         .item-box-reason {
+            height: 110px;
+         }
+         .item-box-reason p {
+            font-size: 0.7em;
+            line-height: 18px;
+         }
+         .line-img-item-box-reason {
+            margin-top: -25%;
+         }
+         .img-item-box-reason .arc-img {
+            margin-top: -25%;
+            margin-left: -10px;
+         }
+         /* section-course */
+         .section-course {
+            margin-top: 25%;
+         }
+         .box-section-course {
+             grid-template-columns: auto auto;
+         }
+         /* css-section-featuredCourse */
+         .section-featuredCourse .box-section-featuredCourse {
+            grid-template-columns: auto;
+         }
+         /* css-section-teacher */
+         .section-teacher {
+            margin-top: -10%;
+            height: auto;
+         }
+         .section-teacher2 {
+            height: auto;
+            top: 17%;
+         }
+         .img-section-teacher {
+            display: block;
+            align-items: center; 
+            justify-content: center;
+            text-align: center;
+         }
+         .item-img-section-teacher {
+            height: 350px;
+            width: 40%;
+            margin: 8% auto;
+         }
+         .box-news-section-teacher {
+            grid-template-columns: auto ;
+            align-items: center; 
+            justify-content: center;
+         }
+         .button-section-teacher .button {
+            margin-bottom: 50px;
+         }
+         /* css section-student */
+         .box-section-student {
+            display: block;
+         }
+         /* css-section-center */
+         .box-section-center {
+            display: block;
+         }
+         .item-box-section-center {
+            width: 80%;
+            margin: 0 auto;
+         }
+         .img-box-section-center {
+            width: 80%;
+            margin: 0 auto;
+         }
+         .opacity-item2-box-section-center {
+            display: none;
+         }
+         /* css section question */
+         .box-section-question {
+            display: block;
+         }
+         .img-box-section-question {
+            display: none;
+         }
+         .item-box-section-question {
+            width: 80%;
+            margin: 0 auto;
+         }
+         .text-item-blue-box-section-question {
+            width: 91%;
+         }
+         .item-text-box-section-question img {
+            padding: 0.7em;
+         }
+         .item-text-box-section-question h4 {
+            font-size: 1em;
+            width: 83%;
+         }
+   }
+   footer {
+      height: auto;
+      margin-top: 50px;
+   }
+   footer{
+      .background-footer {
+         height: auto;
+      }
+   }
+}
+@media screen and (max-width: 500px) {
+   /* responsive-header 500*/
+   .container {
+      max-width: 500px;
+   }
+   .button {
+      font-size: 0.6em;
+   }
+   .title {
+      font-size: 2em;
+   }
+   header {
+      height: 70vh;
+   } 
+   header {
+       .button-slider-header .button{
+         display: block;
+         margin-top: 10px;
+       }
+       .main-text-slider-header {
+         line-height: 30px;
+         font-size: 1.8em;
+      }
+      .main-text-blue-slider-header {
+         line-height: 60px;
+         font-size: 2.2em;
+      }
+      .img-slider-header img {
+         max-width: 40%;
+       }
+       .text-slider-header{
+         display: none;
+       }
+   }
+   main {
+      /* section-intro */
+         .section-intro {
+            margin-top: -30%;
+         }
+         .intro-text {
+            width: 80%;
+         }
+        /* section-reason  */  
+        .box-reason {
+         margin: 0 -5.8%;
+         }
+         .item-box-reason {
+            height: 70px;
+         }
+         .item-box-reason p {
+            font-size: 0.4em;
+            line-height: 10px;
+         }
+         .item-box-reason svg{
+            font-size: 1em;
+         }
+         .img-item-box-reason {
+            display: none;
+         }
+         .box-reason-top {
+            margin-top: -15%;
+         }
+         /* css-section-teacher */
+         .section-teacher {
+            margin-top: -15%;
+         }
+         .item-img-section-teacher {
+            height: 300px;
+            width: 50%;
+            margin: 12% auto;
+         }
+         /* css section-student */
+         .assess-item2-box-section-student {
+            width: 80%;
+         }
+         /* css section question */
+         .item-blue-box-section-question {
+            width: 100%;
+            height: auto;
+         }
+         .item-text-blue-box-section-question {
+          margin-bottom: 2em;
+         }
+         .item-text-blue-box-section-question span {
+            display: none;
+         }
+         .item-text-blue-box-section-question img {
+            padding: 0.5em;
+         }
+         .text-item-blue-box-section-question {
+            width: 100%;
+         }
+         .item-text-box-section-question span {
+            display: none;
+         }
+         .item-text-box-section-question h4 {
+            width: 100%;
+         }
+   }
+   footer {
+      .text-footer {
+         width: 100%;
+      }
+      .box-footer {
+         grid-template-columns: auto auto;
+      }
+      .list-footer {
+         display: none;
+      }
+   }
+}
